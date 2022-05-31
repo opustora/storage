@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedTrigger Enabled="true" Name="Opcode Setting" Id="ed70b427-aa07-449a-a9d6-1cac5e32da81" RegularExpression="^.{15}ChangeMap">
+    <Actions>
+      <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="opcode_actorcast" VariableExpression="03DF" VariablePersist="Persist" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Action>
+    </Actions>
+    <Condition Enabled="false" Grouping="Or" />
+    <Conditions />
+  </ExportedTrigger>
+</TriggernometryExport>
