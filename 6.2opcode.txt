@@ -8,8 +8,8 @@ Ability16,385
 Ability24,3e2
 Ability32,1ec
 ActorCast,3cc
-EffectResult,0x216
-EffectResultBasic,0x34f
+EffectResult,216
+EffectResultBasic,34f
 ActorControl,2b4
 ActorControlSelf,1ae
 ActorControlTarget,ac
