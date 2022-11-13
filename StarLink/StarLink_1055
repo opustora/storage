@@ -3,5 +3,5 @@
 "template2":{ "type":2,"dis":10,"dir":45},
 "center":{ "x":-268,"y":226,"z":40},
 "test":{ "x":-249.68,"y":221.42,"z":40},
-"test2":{ "type":2,"dis":10,"dir":135},
+"test2":{ "type":2,"dis":10,"dir":0},
 }
