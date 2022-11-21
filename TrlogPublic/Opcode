@@ -3,8 +3,8 @@
 	"Ability1":"0395",
 	"Ability8":"0311",
 	"GroundEffect":"0265",
-	"OBserveMoving":"010C",
-	"Setpos":"0329",
+	"ObserveMoving":"010C",
+	"SetPos":"0329",
 	"ActorControl":"0311",
 	"TextContent":"011F",
 	"NpcYell":"03B1"
