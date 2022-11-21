@@ -6,6 +6,6 @@
 	"OBserveMoving":"010C",
 	"Setpos":"0329",
 	"ActorControl":"0311",
-	"TextContent":"011F"
+	"TextContent":"011F",
 	"NpcYell":"03B1"
 }
