@@ -5,7 +5,7 @@
 	"ObjectSpawn":"0265",
 	"MapEffect":"010C",
 	"SetPos":"0329",
-	"ActorControl":"0311",
+	"ActorControl":"0197",
 	"TextContent":"011F",
 	"NpcYell":"03B1"
 }
