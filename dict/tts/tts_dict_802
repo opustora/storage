@@ -1,13 +1,13 @@
 {
   "tts1":{
-          "mt":{ "tts":"A点A点","tts1":"xxxxx","mk":"A","mkd":"2","text":"1"},
-          "st":{ "tts":"B点B点","tts1":"xxxxx","mk":"A","mkd":"2","text":"1"},
-          "h1":{ "tts":"C点C点","tts1":"xxxxx","mk":"A","mkd":"2","text":"1"},
-          "h2":{ "tts":"D点D点","tts1":"xxxxx","mk":"A","mkd":"2","text":"1"},
-          "d1":{ "tts":"1点1点","tts1":"xxxxx","mk":"A","mkd":"2","text":"1"},
-          "d2":{ "tts":"2点2点","tts1":"xxxxx","mk":"A","mkd":"2","text":"1"},
-          "d3":{ "tts":"3点3点","tts1":"xxxxx","mk":"A","mkd":"2","text":"1"},
-          "d4":{ "tts":"4点4点","tts1":"xxxxx","mk":"A","mkd":"2","text":"1"},
-          "pidan":{ "tts":"DDDD","tts1":"xxxxx","mk":"A","mkd":"2","text":"1"},
+          "mt":{ "tts":"A点A点","tts1":"xxxxx","mk":"A","mkd":"0","text":"请输入文字"},
+          "st":{ "tts":"B点B点","tts1":"xxxxx","mk":"B","mkd":"1","text":"请输入文字"},
+          "h1":{ "tts":"C点C点","tts1":"xxxxx","mk":"C","mkd":"2","text":"请输入文字"},
+          "h2":{ "tts":"D点D点","tts1":"xxxxx","mk":"D","mkd":"3","text":"请输入文字"},
+          "d1":{ "tts":"1点1点","tts1":"xxxxx","mk":"1","mkd":"4","text":"请输入文字"},
+          "d2":{ "tts":"2点2点","tts1":"xxxxx","mk":"2","mkd":"5","text":"请输入文字"},
+          "d3":{ "tts":"3点3点","tts1":"xxxxx","mk":"3","mkd":"6","text":"请输入文字"},
+          "d4":{ "tts":"4点4点","tts1":"xxxxx","mk":"4","mkd":"7","text":"请输入文字"},
+          "pidan":{ "tts":"DDDD","tts1":"xxxxx","mk":"A","mkd":"0","text":"请输入文字"},
           }
 }
