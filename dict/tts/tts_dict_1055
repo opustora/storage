@@ -1,0 +1,12 @@
+{
+  "tts1":{
+            "mt":{ "tts":去A点,"marker":A,"marker_dir":0,"text":1},
+            "st":{ "tts":去C点,"marker":A,"marker_dir":4,"text":1},
+            "h1":{ "tts":去D点,"marker":A,"marker_dir":6,"text":1},
+            "h2":{ "tts":去B点,"marker":A,"marker_dir":2,"text":1},
+            "d1":{ "tts":去3点,"marker":A,"marker_dir":5,"text":1},
+            "d2":{ "tts":去2点,"marker":A,"marker_dir":3,"text":1},
+            "d3":{ "tts":去4点,"marker":A,"marker_dir":7,"text":1},
+            "d4":{ "tts":去1点,"marker":A,"marker_dir":1,"text":1},
+         }
+}
