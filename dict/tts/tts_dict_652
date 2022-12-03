@@ -1,12 +1,13 @@
 {
   "tts1":{
-          "mt":{ "tts":"xxxxx","mk":"A","mkd":"2","text":"1"},
-          "st":{ "tts":"xxxxx","mk":"A","mkd":"2","text":"1"},
-          "h1":{ "tts":"xxxxx","mk":"A","mkd":"2","text":"1"},
-          "h2":{ "tts":"xxxxx","mk":"A","mkd":"2","text":"1"},
-          "d1":{ "tts":"xxxxx","mk":"A","mkd":"2","text":"1"},
-          "d2":{ "tts":"xxxxx","mk":"A","mkd":"2","text":"1"},
-          "d3":{ "tts":"xxxxx","mk":"A","mkd":"2","text":"1"},
-          "d4":{ "tts":"xxxxx","mk":"A","mkd":"2","text":"1"},
+          "mt":{ "tts":"A点A点","tts1":"xxxxx","mk":"A","mkd":"2","text":"1"},
+          "st":{ "tts":"B点B点","tts1":"xxxxx","mk":"A","mkd":"2","text":"1"},
+          "h1":{ "tts":"C点C点","tts1":"xxxxx","mk":"A","mkd":"2","text":"1"},
+          "h2":{ "tts":"D点D点","tts1":"xxxxx","mk":"A","mkd":"2","text":"1"},
+          "d1":{ "tts":"1点1点","tts1":"xxxxx","mk":"A","mkd":"2","text":"1"},
+          "d2":{ "tts":"2点2点","tts1":"xxxxx","mk":"A","mkd":"2","text":"1"},
+          "d3":{ "tts":"3点3点","tts1":"xxxxx","mk":"A","mkd":"2","text":"1"},
+          "d4":{ "tts":"4点4点","tts1":"xxxxx","mk":"A","mkd":"2","text":"1"},
+          "pidan":{ "tts":"DDDD","tts1":"xxxxx","mk":"A","mkd":"2","text":"1"},
           }
 }
