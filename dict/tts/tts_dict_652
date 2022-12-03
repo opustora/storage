@@ -1,5 +1,1 @@
-{
-  "tts1":{
-            "h2":{ "tts":${var:test1},"marker":A,"marker_dir":2,"text":1},
-         }
-}
+{"tts1":{"h2":{ "tts":${var:test1},"marker":A,"marker_dir":2,"text":1}}}
