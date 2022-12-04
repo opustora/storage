@@ -1,1 +1,21 @@
-test
+{
+  "PLD":{ "role":"Tank"}
+  "WAR":{ "role":"Tank"}
+  "GNB":{ "role":"Tank"}
+  "DRK":{ "role":"Tank"}
+  "AST":{ "role":"Healer"}
+  "WHM":{ "role":"Healer"}
+  "SGE":{ "role":"Healer"}
+  "SCH":{ "role":"Healer"}
+  "SAM":{ "role":"Melee"}
+  "MNK":{ "role":"Melee"}
+  "DRG":{ "role":"Melee"}
+  "NIN":{ "role":"Melee"}
+  "RPR":{ "role":"Melee"}
+  "BRD":{ "role":"Range"}
+  "MCH":{ "role":"Range"}
+  "DNC":{ "role":"Range"}
+  "BLM":{ "role":"Cast"}
+  "SMN":{ "role":"Cast"}
+  "RDM":{ "role":"Cast"}
+}
