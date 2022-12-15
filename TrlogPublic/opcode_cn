@@ -1,11 +1,11 @@
 {
-	"ActorCast":"02AD",
-	"Ability1":"0395",
-	"Ability8":"0311",
-	"ObjectSpawn":"0265",
-	"MapEffect":"010C",
-	"SetPos":"0329",
-	"ActorControl":"0197",
-	"TextContent":"011F",
-	"NpcYell":"03B1"
+	"ActorCast":"0166",
+	"Ability1":"02AD",
+	"Ability8":"01C6",
+	"ObjectSpawn":"0083",
+	"MapEffect":"01BB",
+	"SetPos":"0185",
+	"ActorControl":"00E4",
+	"TextContent":"01D8",
+	"NpcYell":"012F"
 }
