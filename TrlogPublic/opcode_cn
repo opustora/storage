@@ -1,1 +1,11 @@
-
+{
+	"ActorCast":"02AD",
+	"Ability1":"0395",
+	"Ability8":"0311",
+	"ObjectSpawn":"0265",
+	"MapEffect":"010C",
+	"SetPos":"0329",
+	"ActorControl":"0197",
+	"TextContent":"011F",
+	"NpcYell":"03B1"
+}
