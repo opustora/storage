@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="d588e0ec-40f3-493b-8ea4-50cb76337225" Name="test" Enabled="true">
+    <Folders>
+      <Folder Id="e93aa87d-5fda-489b-8fe5-73e603fea157" Encrypted="True" UserKey="5D6126FA" EncryptedContent="1I4lx1LHiSBIeNQ+hqt2vfLuL3GhWneCu0d11TH1ovv9elfRJlWwHuOVr6IKml8LueufrfgB7RnhlyT6NQhTgbHzoyRyPnVUs+6K18EqY+JkT0yGE9AL6XUw1dxBkQxmykzWdqZkIjnchCLTIv97qFsvW39Qx7MxXESi0JTG8kcIwNz6w6ofpAK/thZ0uPN1l/My9nLzblzzaHDSokaEnvzvFjzzTusm8pqjbbJEtG/9jZmU8U1aEP1eu2EQ8bvt2lB5jZZjSNKekL0tEyFIeugYsP+It5QMD2Qx4NmRWQfRnlKUxCglRKKPk4zwEDm1LkNnViwRONza9J2p6doyS3M5uLP/rvOslGgtftXOjqaLC4THlx9mRkliv2sy3D8zrOnXs9deLHLpBtEPJKYVnb/tgtVXYE3vfFjCIw9VvDXWl2SMiye/Sd0gN/xD+eEE9K/gnI54uOOEACQBVpfhZeJ4o34HjWs1485B+NTT/70+eeobnTXnIVFRhZe6YzhYQReuPo2YmVrNCqM9r9ridz15e0LaWEjYw4wqc/KT1omydi6eAO38JkxFUbHQZpd6FCSV/dQ02nCa4vnrrgPTXCz1sXg0e+QWeSF9IKTK98Tq1sJzuT7n5ayMGWXmZfJChGl+nFTl9AArQ9EucLQSVj56cTpdQo8sF6PWYvmUSFdyWotOLWSkRZjmx9FSVUsL4PIreANDIEMTtgEdkgPotdBQbK4MY+8SlMapvvHj6ra7nBvyDiBpAPPcpDi9m2Oea0kHdsjc+4S1g4Fp/kB5/XZFzOn8RaiQ8WQb1V3jrjh+9LQfRdDhBLYFGNcZnhwwkR2pt/EZcYVR2a0EnvF8Lupx2Mf2Eig2IAMMv/7KiCs0RRXDjvmYH9xEEhXX3kAAFPWms8glL7xHuL2yEBElZ0hq4t2nVJMEd5GKgLosmyF2OxApVUcPr79E7vnKxEY7EUAr3sN7CftDfmDm3FoX0fyi/LHBMDGe5RDlkrgVsOAvPQES/iGrzpXYM2KKbxT1IQ8/ZRoHw+6azKQpDfRcPeeT6sN5pdXc90zovGJFedxKsYZoqOxJB/J60AgJcKRlTAhHoXuuZtDR9QkDlUizaDUlz8AEORkHx+F2YsXlRdEogjf163fkSsQNPmQQIFTKa7Bchtvy0Y030j8p+ZN6rrHMDR70CNOOwxlIgWfO+7S6oy21Wkz7nBvAHXQy5q9LYa4cRYE8VwOKtmyB3+W1RzlrQdKfL0M36MEkrnmUImBe5JamVdnGQ1Kh4E5hnsirpRX+EWPGg2PW17uNC/JyiOLekM2peYtBYwXshWYDi8ozz7z2jHzQZaAGqyPGghZ22X1ovDbss60UBsOus+5X1/PNb9SxpfNnTcbXxrs9vedUuJLAbUCSy+Gvdp5piiaLAT1F+aNcQ4PmfBNWJxiyag==" Name="test2" Enabled="true">
+        <Folders />
+        <Triggers />
+      </Folder>
+    </Folders>
+    <Triggers>
+      <Trigger Enabled="true" Sequential="True" Name="python study" Id="8de6f5b9-774e-46b2-bb0e-a341cb2dbdf7" RegularExpression="test1113444">
+        <Actions>
+          <Action OrderNumber="1" SchedulingActionOp="-1" JsonEndpointExpression="http://www.ffxivtora.com:8080/test/" JsonPayloadExpression="{&quot;name&quot;:&quot;Tora Kun&quot;,&quot;A&quot;:&quot;1&quot;,&quot;B&quot;:&quot;2&quot;}" JsonFiringExpression="${_response}" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="GenericJson" ExecutionDelayExpression="0">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MessageBoxText="${_response}" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="MessageBox" ExecutionDelayExpression="0">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Sequential="True" Name="pythonstudy2" Id="dbb4637c-c625-4465-a517-215e0619f762" RegularExpression="">
+        <Actions>
+          <Action OrderNumber="1" SchedulingActionOp="-1" JsonEndpointExpression="http://ffxivtora.com:8080/storage/" JsonPayloadExpression="{&quot;op&quot; : &quot;read&quot; , &quot;file&quot; : &quot;table2.xlxs&quot;, &quot;row&quot; : &quot;0&quot;, &quot;col&quot; : &quot;0&quot;}" JsonFiringExpression="${_response}" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="GenericJson" ExecutionDelayExpression="0">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MessageBoxText="${_response}" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="MessageBox" ExecutionDelayExpression="0">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+    </Triggers>
+  </ExportedFolder>
+</TriggernometryExport>
