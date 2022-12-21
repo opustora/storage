@@ -1,0 +1,893 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="69616503-dbd9-4663-a917-31d5990b0fa9" Name="新风神-旗舰版" Enabled="true">
+    <Folders>
+      <Folder Id="0c648528-81f2-49ff-9d03-e30067c66ed8" Name="重置" Enabled="true">
+        <Folders />
+        <Triggers>
+          <Trigger Enabled="true" Source="None" Name="Reset" FamilyName="TC:ParseHOSTextContent" Id="6af12760-f7f6-4b54-9bed-ee731bd6d729" RegularExpression="">
+            <Actions>
+              <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraOp="DeactivateAuraRegex" TextAuraFontSize="9" TextAuraName="bbcr_" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="TextAura" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="UnsetRegex" VariableName="bbcr_" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="3" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="UnsetRegex" VariableName="bbcr_temp_" VariablePersist="Persist" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="4" SchedulingActionOp="-1" ListVariableOp="UnsetRegex" ListVariableName="bbcr_" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="UnsetRegex" VariableName="dru_temp_" VariablePersist="Persist" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="ListVariable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="5" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="bbcr" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="JsonVariable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${textID}" ExpressionTypeL="String" ExpressionR="86C4" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+            </Condition>
+            <Conditions />
+          </Trigger>
+        </Triggers>
+      </Folder>
+      <Folder Id="1bce7a6e-242f-48ea-a650-fc33d1aab745" Name="一般tts" Enabled="true">
+        <Folders>
+          <Folder Id="64009980-fc49-4db5-a857-9a9dbb773491" Name="各种月环钢铁扇形" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="None" Name="月环加钢铁" FamilyName="14:ParseHOSActorCast" Id="0bb08989-ce7e-4502-afa6-ebd6270b9fd7" RegularExpression="">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="月环，远离A" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${numeric:dirToClock(direction(100,100,${posX},${posY}))}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="月环，远离2逼" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${numeric:dirToClock(direction(100,100,${posX},${posY}))}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="3" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="月环，远离C" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${numeric:dirToClock(direction(100,100,${posX},${posY}))}" ExpressionTypeL="Numeric" ExpressionR="4" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="4" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="月环，远离4帝" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${numeric:dirToClock(direction(100,100,${posX},${posY}))}" ExpressionTypeL="Numeric" ExpressionR="6" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="7575" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="None" Name="月环加分摊分散" FamilyName="14:ParseHOSActorCast" Id="81ef4f7c-c91e-419c-b95f-e33c1d60b60a" RegularExpression="">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="月环月环" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="757F" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="None" Name="直线加钢铁" FamilyName="14:ParseHOSActorCast" Id="feb2b435-37a2-45ed-b0b7-f07a63680f40" RegularExpression="">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="直线，C侧安全" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${numeric:dirToClock(direction(100,100,${posX},${posY}))}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="直线，4D安全" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${numeric:dirToClock(direction(100,100,${posX},${posY}))}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="3" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="直线，A侧安全" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${numeric:dirToClock(direction(100,100,${posX},${posY}))}" ExpressionTypeL="Numeric" ExpressionR="4" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="4" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="直线，2B安全" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${numeric:dirToClock(direction(100,100,${posX},${posY}))}" ExpressionTypeL="Numeric" ExpressionR="6" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="757B" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="None" Name="场边扇形" FamilyName="14:ParseHOSActorCast" Id="13480929-6773-4909-b156-cc990cad19c6" RegularExpression="">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="A点两侧" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${numeric:dirToClock(direction(100,100,${posX},${posY}))}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="逼点两侧" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${numeric:dirToClock(direction(100,100,${posX},${posY}))}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="3" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="C点两侧" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${numeric:dirToClock(direction(100,100,${posX},${posY}))}" ExpressionTypeL="Numeric" ExpressionR="4" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="4" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="帝点两侧" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${numeric:dirToClock(direction(100,100,${posX},${posY}))}" ExpressionTypeL="Numeric" ExpressionR="6" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="757D" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="b9fea743-26b5-4292-8bba-701cb1ddb8ef" Name="普通技能" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="None" Name="死刑" FamilyName="14:ParseHOSActorCast" Id="d793a594-76dd-4dd6-83ec-f04f26aad2d4" RegularExpression="">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="死刑换涕" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="7571" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="AOE" FamilyName="14:ParseHOSActorCast" Id="844a8bad-9943-4f32-bb0a-53364be04651" RegularExpression="">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="AOE" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="7570" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="None" Name="扇形" FamilyName="14:ParseHOSActorCast" Id="e3c262a7-809e-48bc-b9c2-d0f98f0e9b47" RegularExpression="" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="散开散开" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="${castTime}*1000">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="7415" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="None" Name="转场AOE" FamilyName="14:ParseHOSActorCast" Id="3c17dbfe-7b93-4a3c-8f3e-3f48ca398671" RegularExpression="">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="转场AOE，远离boss" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="75B2" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="ae91a968-4487-4408-b132-a3f8cfed6c54" Name="分组贴贴" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="None" Name="拉线贴贴读条" FamilyName="14:ParseHOSActorCast" Id="182e04e4-8598-4d04-8cf6-ac5eeb512bda" RegularExpression="" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetNumeric" VariableName="bbcr_counter_${_folder}" VariableExpression="${var:bbcr_counter_${_folder}}+1" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="拉线八方" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${var:bbcr_counter_${_folder}}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="3" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="拉线弹幕" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${var:bbcr_counter_${_folder}}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="75AB" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="bfcb2c1b-d9ad-49c7-b6d9-d9580dcef0bd" Name="集合散开提示" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="None" Name="第一次集合提示" FamilyName="1B:ParseHOSTargetIcon(Fixed)" Id="af47d1a9-9ade-4275-be1d-d8cabceb6696" RegularExpression="^103$" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" LogLevel="-1" MouseX="" MouseY="" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="12aa2d3e-eb3f-438b-a91b-0a8ae2b74639" TriggerText="debug_classification:时间戳:10:${numeric:${_systemtimems}-${var:bbrc_start_timestamp}}" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" Enabled="False" ActionType="Trigger" ExecutionDelayExpression="0">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetNumeric" VariableName="bbcr_counter_集合" VariableExpression="${var:bbcr_counter_集合}+1" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="3" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="中央集合诱导" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="4000">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${var:bbcr_counter_集合}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="4" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="远离中央，准备核爆分摊" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[1].role}" ExpressionTypeL="String" ExpressionR="Tank" ExpressionTypeR="String" ConditionType="StringNotEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${var:bbcr_counter_集合}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="5" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="3" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="8000">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${var:bbcr_counter_集合}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="6" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="2" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="1000">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${var:bbcr_counter_集合}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="7" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="1" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="1000">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${var:bbcr_counter_集合}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="And">
+                  <ConditionSingle Enabled="false" ExpressionL="${evar:bbcr_counter_集合}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="None" Name="八方散开提示" FamilyName="1B:ParseTargetIcon(Fixed)" Id="d112c60b-4887-4992-a79e-b91911b2afa9" RegularExpression="^173$" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="走走走" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="5992089f-d5b8-4660-bbbb-fe091d752abb" Name="连续AOE" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="None" Name="连续AOE" FamilyName="TC:ParseHOSTextContent" Id="0b4988d5-65dc-4f1d-bc16-cb7238d5b624" RegularExpression="">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="连续高伤AOE,C点集合" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${textID}" ExpressionTypeL="String" ExpressionR="86D5" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${textID}" ExpressionTypeL="String" ExpressionR="86D7" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="连续高伤AOE" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${textID}" ExpressionTypeL="String" ExpressionR="86D8" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${textID}" ExpressionTypeL="String" ExpressionR="86DA" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="3" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="准备转场，远离boss" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="10000">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${textID}" ExpressionTypeL="String" ExpressionR="86D8" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${textID}" ExpressionTypeL="String" ExpressionR="86DA" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${textID}" ExpressionTypeL="String" ExpressionR="86D5" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                  <ConditionSingle Enabled="true" ExpressionL="${textID}" ExpressionTypeL="String" ExpressionR="86D8" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                  <ConditionSingle Enabled="true" ExpressionL="${textID}" ExpressionTypeL="String" ExpressionR="86D7" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                  <ConditionSingle Enabled="true" ExpressionL="${textID}" ExpressionTypeL="String" ExpressionR="86DA" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="ac4d2b3c-6d15-4148-b9ae-7c604536720b" Name="分散核爆提示" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="None" Name="分散核爆提示" FamilyName="1B:ParseHOSTargetIcon(Fixed)" Id="2e8f1aec-e942-40ac-bb82-9acbbf96e4b0" RegularExpression="^15A$" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetNumeric" VariableName="bbcr_counter_${_triggerid}" VariableExpression="${var:bbcr_counter_${_triggerid}}+1" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="分摊，注意击退" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[1].role}" ExpressionTypeL="String" ExpressionR="Tank" ExpressionTypeR="String" ConditionType="StringNotEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${var:bbcr_counter_${_triggerid}}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="3" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="核爆，注意击退" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[1].role}" ExpressionTypeL="String" ExpressionR="Tank" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${var:bbcr_counter_${_triggerid}}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="4" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="分摊分摊" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[1].role}" ExpressionTypeL="String" ExpressionR="Tank" ExpressionTypeR="String" ConditionType="StringNotEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${var:bbcr_counter_${_triggerid}}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="5" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="核爆核爆" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[1].role}" ExpressionTypeL="String" ExpressionR="Tank" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${var:bbcr_counter_${_triggerid}}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="And" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="997ff203-8c0c-4b5e-8971-a211ff53fac6" Name="躲圈圈集合提示" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="None" Name="躲圈圈" FamilyName="15:ParseHOSActionEffect" Id="710a8fe1-4ba1-4a5b-a1a5-961f372aa984" RegularExpression="" PeriodRefire="Deny" RefirePeriodExpression="5000">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetNumeric" VariableName="bbcr_counter_${_triggerid}" VariableExpression="${var:bbcr_counter_${_triggerid}}+1" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="顺时针放圈" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="500">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="3" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="中央集合" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="8000">
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${var:bbcr_counter_${_triggerid}}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="7595" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="1bae3f31-b5c8-4c77-985f-4f68c8947065" Name="防击退" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="None" Name="防击退" FamilyName="14:ParseHOSActorCast" Id="04a2edab-97e2-4d0e-a431-4007629aa9ee" RegularExpression="" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetNumeric" VariableName="bbcr_counter_击退" VariableExpression="${var:bbcr_counter_击退}+1" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="注意防击退" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${var:bbcr_counter_击退}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="75A1" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="d03fab26-bd64-43ec-ba0d-cd66312d5277" Name="PS4贴贴" Enabled="false">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="PS4贴贴" FamilyName="14:ParseHOSActorCast" Id="7b759cfb-3997-49ca-9e24-dab69a58ae38" RegularExpression="">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="十字散开" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[1].role}" ExpressionTypeL="String" ExpressionR="DPS" ExpressionTypeR="String" ConditionType="StringNotEqualNocase" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="中央集合" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[1].role}" ExpressionTypeL="String" ExpressionR="DPS" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="75AD" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="99b62e8f-9617-423d-8b45-b76c10657e04" Name="第一次拘束头标判定" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="None" Name="头标判定" FamilyName="1B:ParseHOSTargetIcon(Fixed)" Id="afe9644d-40d0-4234-b9b9-20725564deb5" RegularExpression="(?&lt;fixedID&gt;[0-9A-F]{1,4})">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="bbcr_exsit_${_folder}" VariableExpression="1" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${targetName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="大圈，远离一三" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${fixedID}" ExpressionTypeL="String" ExpressionR="174" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${targetName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="3" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="蓝圈，一三分摊" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="0">
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${fixedID}" ExpressionTypeL="String" ExpressionR="15B" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${targetName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="4" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="没点名，一三分摊" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="UseTTS" ExecutionDelayExpression="100" RefireInterrupt="True">
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${evar:bbcr_exsit_${_folder}}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                      <ConditionSingle Enabled="true" ExpressionL="${targetName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringNotEqualNocase" />
+                    </Condition>
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${evar:bbcr_exist_${_folder}}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                  <ConditionSingle Enabled="true" ExpressionL="${pvar:current_content}" ExpressionTypeL="String" ExpressionR="1072" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                  <ConditionGroup Enabled="true" Grouping="Or">
+                    <ConditionSingle Enabled="true" ExpressionL="${fixedID}" ExpressionTypeL="String" ExpressionR="174" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                    <ConditionSingle Enabled="true" ExpressionL="${fixedID}" ExpressionTypeL="String" ExpressionR="15B" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                  </ConditionGroup>
+                </Condition>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="None" Name="转场AOE" FamilyName="14:ParseHOSActorCast" Id="1dba836c-5822-4f2c-8d8b-f4b1ed1ef2b6" RegularExpression="">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="bbcr_exist_${_folder}" VariableExpression="1" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="75B2" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+      <Folder Id="f6dfe9f2-76ec-4a86-bcc5-63a6704f0d2c" Name="Horoscope" Enabled="true">
+        <Folders>
+          <Folder Id="718b5951-7ac3-495b-81d8-4fe6c547e713" Name="万变水波" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="horoscope_party_slicer" Id="f5057fde-b91d-47bf-8728-2a13371271b6" RegularExpression="horoscope_party_slicer:(?&lt;actorID&gt;[0-9A-F]{8}):(?&lt;length&gt;.*?):(?&lt;degree&gt;.*?):(?&lt;time&gt;.*?):">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="颜色1" VariableExpression="Yellow" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="颜色2" VariableExpression="Yellow" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="3" JsonEndpointExpression="http://127.0.0.1:3005/place" JsonPayloadExpression="{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:2,&quot;Actor&quot;:&quot;${_ffxivparty[1].name}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" NamedCallbackName="HoroscopeCommand" NamedCallbackParam="place:{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${_ffxivparty[1].id}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="bc651d5b-f502-4be7-b781-726b832a3a68" TriggerText="place:{&quot;Type&quot;:1,&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${length},&quot;Range2&quot;:${degree},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${actorID}&quot;,&quot;targetType&quot;:2,&quot;Target&quot;:&quot;${_ffxivparty[1].name}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" Enabled="False" ActionType="Trigger" ExecutionDelayExpression="0">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="4" JsonEndpointExpression="http://127.0.0.1:3005/place" JsonPayloadExpression="{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:2,&quot;Actor&quot;:&quot;${_ffxivparty[1].name}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" NamedCallbackName="HoroscopeCommand" NamedCallbackParam="place:{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${_ffxivparty[1].id}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="bc651d5b-f502-4be7-b781-726b832a3a68" TriggerText="place:{&quot;Type&quot;:1,&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${length},&quot;Range2&quot;:${degree},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${actorID}&quot;,&quot;targetType&quot;:2,&quot;Target&quot;:&quot;${_ffxivparty[2].name}&quot;,&quot;Color&quot;:&quot;${cvar:颜色1}&quot;,&quot;Color2&quot;:&quot;${cvar:颜色2}&quot;,&quot;Timestamp&quot;:${_timestampms}}" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="5" JsonEndpointExpression="http://127.0.0.1:3005/place" JsonPayloadExpression="{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:2,&quot;Actor&quot;:&quot;${_ffxivparty[1].name}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" NamedCallbackName="HoroscopeCommand" NamedCallbackParam="place:{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${_ffxivparty[1].id}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="bc651d5b-f502-4be7-b781-726b832a3a68" TriggerText="place:{&quot;Type&quot;:1,&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${length},&quot;Range2&quot;:${degree},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${actorID}&quot;,&quot;targetType&quot;:2,&quot;Target&quot;:&quot;${_ffxivparty[3].name}&quot;,&quot;Color&quot;:&quot;${cvar:颜色1}&quot;,&quot;Color2&quot;:&quot;${cvar:颜色2}&quot;,&quot;Timestamp&quot;:${_timestampms}}" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="6" JsonEndpointExpression="http://127.0.0.1:3005/place" JsonPayloadExpression="{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:2,&quot;Actor&quot;:&quot;${_ffxivparty[1].name}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" NamedCallbackName="HoroscopeCommand" NamedCallbackParam="place:{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${_ffxivparty[1].id}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="bc651d5b-f502-4be7-b781-726b832a3a68" TriggerText="place:{&quot;Type&quot;:1,&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${length},&quot;Range2&quot;:${degree},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${actorID}&quot;,&quot;targetType&quot;:2,&quot;Target&quot;:&quot;${_ffxivparty[4].name}&quot;,&quot;Color&quot;:&quot;${cvar:颜色1}&quot;,&quot;Color2&quot;:&quot;${cvar:颜色2}&quot;,&quot;Timestamp&quot;:${_timestampms}}" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="7" JsonEndpointExpression="http://127.0.0.1:3005/place" JsonPayloadExpression="{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:2,&quot;Actor&quot;:&quot;${_ffxivparty[1].name}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" NamedCallbackName="HoroscopeCommand" NamedCallbackParam="place:{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${_ffxivparty[1].id}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="bc651d5b-f502-4be7-b781-726b832a3a68" TriggerText="place:{&quot;Type&quot;:1,&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${length},&quot;Range2&quot;:${degree},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${actorID}&quot;,&quot;targetType&quot;:2,&quot;Target&quot;:&quot;${_ffxivparty[5].name}&quot;,&quot;Color&quot;:&quot;${cvar:颜色1}&quot;,&quot;Color2&quot;:&quot;${cvar:颜色2}&quot;,&quot;Timestamp&quot;:${_timestampms}}" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="8" JsonEndpointExpression="http://127.0.0.1:3005/place" JsonPayloadExpression="{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:2,&quot;Actor&quot;:&quot;${_ffxivparty[1].name}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" NamedCallbackName="HoroscopeCommand" NamedCallbackParam="place:{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${_ffxivparty[1].id}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="bc651d5b-f502-4be7-b781-726b832a3a68" TriggerText="place:{&quot;Type&quot;:1,&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${length},&quot;Range2&quot;:${degree},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${actorID}&quot;,&quot;targetType&quot;:2,&quot;Target&quot;:&quot;${_ffxivparty[6].name}&quot;,&quot;Color&quot;:&quot;${cvar:颜色1}&quot;,&quot;Color2&quot;:&quot;${cvar:颜色2}&quot;,&quot;Timestamp&quot;:${_timestampms}}" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="9" JsonEndpointExpression="http://127.0.0.1:3005/place" JsonPayloadExpression="{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:2,&quot;Actor&quot;:&quot;${_ffxivparty[1].name}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" NamedCallbackName="HoroscopeCommand" NamedCallbackParam="place:{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${_ffxivparty[1].id}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="bc651d5b-f502-4be7-b781-726b832a3a68" TriggerText="place:{&quot;Type&quot;:1,&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${length},&quot;Range2&quot;:${degree},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${actorID}&quot;,&quot;targetType&quot;:2,&quot;Target&quot;:&quot;${_ffxivparty[7].name}&quot;,&quot;Color&quot;:&quot;${cvar:颜色1}&quot;,&quot;Color2&quot;:&quot;${cvar:颜色2}&quot;,&quot;Timestamp&quot;:${_timestampms}}" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                  <Action OrderNumber="10" JsonEndpointExpression="http://127.0.0.1:3005/place" JsonPayloadExpression="{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:2,&quot;Actor&quot;:&quot;${_ffxivparty[1].name}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" NamedCallbackName="HoroscopeCommand" NamedCallbackParam="place:{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${_ffxivparty[1].id}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="bc651d5b-f502-4be7-b781-726b832a3a68" TriggerText="place:{&quot;Type&quot;:1,&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${length},&quot;Range2&quot;:${degree},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${actorID}&quot;,&quot;targetType&quot;:2,&quot;Target&quot;:&quot;${_ffxivparty[8].name}&quot;,&quot;Color&quot;:&quot;${cvar:颜色1}&quot;,&quot;Color2&quot;:&quot;${cvar:颜色2}&quot;,&quot;Timestamp&quot;:${_timestampms}}" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="None" Name="万变水波" FamilyName="14:ParseHOSActorCast" Id="045c6c77-7c3e-4fb8-82e1-a549fb8d5570" RegularExpression="" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" UseTTSTextExpression="散开散开" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="f5057fde-b91d-47bf-8728-2a13371271b6" TriggerText="horoscope_party_slicer:${actorID}:40:40:2.5:" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="${castTime}*1000">
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="7415" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers>
+          <Trigger Enabled="true" Source="None" Sequential="True" Name="月环" FamilyName="14:ParseHOSActorCast" Id="84ae987f-fd9a-432c-b229-1d148c59dfcb" RegularExpression="">
+            <Actions>
+              <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Placeholder" ExecutionDelayExpression="0" Description="禁用自动显示" DescriptionOverride="True">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="3ce5131e-0779-435e-a2b9-dee6b1342542" TriggerText="set:${actionID}:generate:No:" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${epjvar:horoscopeAG.setting.${actionID}.generate}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                  <ConditionSingle Enabled="true" ExpressionL="${pjvar:horoscopeAG.setting.${actionID}.generate}" ExpressionTypeL="String" ExpressionR="Yes" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                </Condition>
+                <Conditions />
+              </Action>
+              <Action OrderNumber="3" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Placeholder" ExecutionDelayExpression="0" Description="一般参数" DescriptionOverride="True">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="4" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="外圈" VariableExpression="20" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="5" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="内圈" VariableExpression="6" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="6" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="透明度" VariableExpression="50" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="7" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="持续时间" VariableExpression="${castTime}" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="8" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="颜色1" VariableExpression="Yellow" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="9" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="颜色2" VariableExpression="Red" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="10" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="叠加选项" VariableExpression="1" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="11" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="边框" VariableExpression="True" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="12" JsonEndpointExpression="http://127.0.0.1:3005/place" JsonPayloadExpression="{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:2,&quot;Actor&quot;:&quot;${_ffxivparty[1].name}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" NamedCallbackName="HoroscopeCommand" NamedCallbackParam="place:{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${_ffxivparty[1].id}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="bc651d5b-f502-4be7-b781-726b832a3a68" TriggerText="place:{&quot;Type&quot;:3,&quot;SecDisplay&quot;:${cvar:持续时间},&quot;Range1&quot;:${cvar:外圈},&quot;Range2&quot;:${cvar:内圈},&quot;displaceTargetType&quot;:-1,&quot;Pos1&quot;:{ &quot;X&quot;:${posX},&quot;Y&quot;:${posY},&quot;Z&quot;:${posZ}},&quot;alpha&quot;:${cvar:透明度},&quot;Color&quot;:&quot;${cvar:颜色1}&quot;,&quot;Color2&quot;:&quot;${cvar:颜色2}&quot;,&quot;blendOperation&quot;:${cvar:叠加选项},&quot;Outline&quot;:&quot;${cvar:边框}&quot;}" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="And" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="7574" ExpressionTypeR="String" ConditionType="RegexMatch" />
+              <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="757F" ExpressionTypeR="String" ConditionType="RegexMatch" />
+            </Condition>
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Source="None" Sequential="True" Name="钢铁" FamilyName="14:ParseHOSActorCast" Id="045acf0f-c56f-4429-b0f0-12e51d10df40" RegularExpression="">
+            <Actions>
+              <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Placeholder" ExecutionDelayExpression="0" Description="禁用自动显示" DescriptionOverride="True">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="3ce5131e-0779-435e-a2b9-dee6b1342542" TriggerText="set:${actionID}:generate:No:" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${epjvar:horoscopeAG.setting.${actionID}.generate}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                  <ConditionSingle Enabled="true" ExpressionL="${pjvar:horoscopeAG.setting.${actionID}.generate}" ExpressionTypeL="String" ExpressionR="Yes" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                </Condition>
+                <Conditions />
+              </Action>
+              <Action OrderNumber="3" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Placeholder" ExecutionDelayExpression="0" Description="一般参数" DescriptionOverride="True">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="4" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="半径" VariableExpression="20" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="5" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="持续时间" VariableExpression="${castTime}" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="6" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="透明度" VariableExpression="50" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="7" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="颜色1" VariableExpression="Yellow" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="8" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="颜色2" VariableExpression="Red" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="9" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="叠加选项" VariableExpression="3" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="10" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="边框" VariableExpression="True" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="11" JsonEndpointExpression="http://127.0.0.1:3005/place" JsonPayloadExpression="{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:2,&quot;Actor&quot;:&quot;${_ffxivparty[1].name}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" NamedCallbackName="HoroscopeCommand" NamedCallbackParam="place:{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${_ffxivparty[1].id}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="bc651d5b-f502-4be7-b781-726b832a3a68" TriggerText="place:{&quot;SecDisplay&quot;:${cvar:持续时间},&quot;Range1&quot;:${cvar:半径},&quot;displaceTargetType&quot;:-1,&quot;Pos1&quot;:{ &quot;X&quot;:${posX},&quot;Y&quot;:${posY},&quot;Z&quot;:${posZ}},&quot;alpha&quot;:${cvar:透明度},&quot;Color&quot;:&quot;${cvar:颜色1}&quot;,&quot;Color2&quot;:&quot;${cvar:颜色2}&quot;,&quot;blendOperation&quot;:${cvar:叠加选项},&quot;Outline&quot;:&quot;${cvar:边框}&quot;}" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="And" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="7575" ExpressionTypeR="String" ConditionType="RegexMatch" />
+              <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="757B" ExpressionTypeR="String" ConditionType="RegexMatch" />
+            </Condition>
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Source="None" Sequential="True" Name="直线" FamilyName="14:ParseHOSActorCast" Id="6ae7f3f2-adb4-41a8-b525-618fb51ac443" RegularExpression="">
+            <Actions>
+              <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Placeholder" ExecutionDelayExpression="0" Description="禁用自动显示" DescriptionOverride="True">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="3ce5131e-0779-435e-a2b9-dee6b1342542" TriggerText="set:${actionID}:generate:No:" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${epjvar:horoscopeAG.setting.${actionID}.generate}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                  <ConditionSingle Enabled="true" ExpressionL="${pjvar:horoscopeAG.setting.${actionID}.generate}" ExpressionTypeL="String" ExpressionR="Yes" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                </Condition>
+                <Conditions />
+              </Action>
+              <Action OrderNumber="3" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Placeholder" ExecutionDelayExpression="0" Description="一般参数" DescriptionOverride="True">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="4" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="长度" VariableExpression="40" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="5" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="宽度" VariableExpression="12" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="6" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="持续时间" VariableExpression="${castTime}" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="7" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="透明度" VariableExpression="50" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="8" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="颜色1" VariableExpression="Yellow" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="9" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="颜色2" VariableExpression="Red" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="10" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="叠加选项" VariableExpression="1" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="11" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="边框" VariableExpression="True" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="12" JsonEndpointExpression="http://127.0.0.1:3005/place" JsonPayloadExpression="{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:2,&quot;Actor&quot;:&quot;${_ffxivparty[1].name}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" NamedCallbackName="HoroscopeCommand" NamedCallbackParam="place:{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${_ffxivparty[1].id}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="bc651d5b-f502-4be7-b781-726b832a3a68" TriggerText="place:{&quot;Type&quot;:2,&quot;SecDisplay&quot;:${cvar:持续时间},&quot;Range1&quot;:${cvar:长度},&quot;Range2&quot;:${cvar:宽度},&quot;targetType&quot;:3,&quot;Dir&quot;:${numeric:${heading}/pi*180},&quot;Pos1&quot;:{ &quot;X&quot;:${posX},&quot;Y&quot;:${posY},&quot;Z&quot;:${posZ}},&quot;displaceTargetType&quot;:-1,&quot;alpha&quot;:${cvar:透明度},&quot;Color&quot;:&quot;${cvar:颜色1}&quot;,&quot;Color2&quot;:&quot;${cvar:颜色2}&quot;,&quot;blendOperation&quot;:${cvar:叠加选项},&quot;Outline&quot;:&quot;${cvar:边框}&quot;}" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="And" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="757A" ExpressionTypeR="String" ConditionType="RegexMatch" />
+            </Condition>
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Source="None" Sequential="True" Name="场边扇形" FamilyName="14:ParseHOSActorCast" Id="75f5449c-9b91-45eb-9797-1654b84967d2" RegularExpression="">
+            <Actions>
+              <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Placeholder" ExecutionDelayExpression="0" Description="禁用自动显示" DescriptionOverride="True">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="3ce5131e-0779-435e-a2b9-dee6b1342542" TriggerText="set:${actionID}:generate:No:" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${epjvar:horoscopeAG.setting.${actionID}.generate}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                  <ConditionSingle Enabled="true" ExpressionL="${pjvar:horoscopeAG.setting.${actionID}.generate}" ExpressionTypeL="String" ExpressionR="Yes" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                </Condition>
+                <Conditions />
+              </Action>
+              <Action OrderNumber="3" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Placeholder" ExecutionDelayExpression="0" Description="一般参数" DescriptionOverride="True">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="4" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="长度" VariableExpression="40" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="5" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="角度" VariableExpression="120" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="6" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="持续时间" VariableExpression="${castTime}" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="7" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="透明度" VariableExpression="50" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="8" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="颜色1" VariableExpression="Yellow" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="9" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="颜色2" VariableExpression="Red" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="10" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="叠加选项" VariableExpression="1" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="11" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="边框" VariableExpression="True" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="12" JsonEndpointExpression="http://127.0.0.1:3005/place" JsonPayloadExpression="{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:2,&quot;Actor&quot;:&quot;${_ffxivparty[1].name}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" NamedCallbackName="HoroscopeCommand" NamedCallbackParam="place:{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${_ffxivparty[1].id}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="bc651d5b-f502-4be7-b781-726b832a3a68" TriggerText="place:{&quot;Type&quot;:1,&quot;SecDisplay&quot;:${cvar:持续时间},&quot;Range1&quot;:${cvar:长度},&quot;Range2&quot;:${cvar:角度},&quot;targetType&quot;:3,&quot;Dir&quot;:${numeric:${heading}/pi*180},&quot;Pos1&quot;:{ &quot;X&quot;:${posX},&quot;Y&quot;:${posY},&quot;Z&quot;:${posZ}},&quot;displaceTargetType&quot;:-1,&quot;alpha&quot;:${cvar:透明度},&quot;Color&quot;:&quot;${cvar:颜色1}&quot;,&quot;Color2&quot;:&quot;${cvar:颜色2}&quot;,&quot;blendOperation&quot;:${cvar:叠加选项},&quot;Outline&quot;:&quot;${cvar:边框}&quot;}" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="And" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="757D" ExpressionTypeR="String" ConditionType="RegexMatch" />
+            </Condition>
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Source="None" Sequential="True" Name="点名直线" FamilyName="14:ParseHOSActorCast" Id="e17e5d5b-b49a-4566-944e-aae342c1978d" RegularExpression="">
+            <Actions>
+              <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Placeholder" ExecutionDelayExpression="0" Description="禁用自动显示" DescriptionOverride="True">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="2" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="3ce5131e-0779-435e-a2b9-dee6b1342542" TriggerText="set:${actionID}:generate:No:" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${epjvar:horoscopeAG.setting.${actionID}.generate}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                  <ConditionSingle Enabled="true" ExpressionL="${pjvar:horoscopeAG.setting.${actionID}.generate}" ExpressionTypeL="String" ExpressionR="Yes" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                </Condition>
+                <Conditions />
+              </Action>
+              <Action OrderNumber="3" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="9" TextAuraFontName="宋体" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Placeholder" ExecutionDelayExpression="0" Description="一般参数" DescriptionOverride="True">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="4" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="长度" VariableExpression="40" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="5" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="宽度" VariableExpression="4" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="6" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="持续时间" VariableExpression="${castTime}" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="7" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="透明度" VariableExpression="50" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="8" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="颜色1" VariableExpression="Yellow" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="9" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="颜色2" VariableExpression="Red" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="10" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="叠加选项" VariableExpression="1" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="11" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" VariableOp="SetString" VariableName="边框" VariableExpression="True" VariablePersist="Local" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Variable" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="12" JsonEndpointExpression="http://127.0.0.1:3005/place" JsonPayloadExpression="{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:2,&quot;Actor&quot;:&quot;${_ffxivparty[1].name}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" NamedCallbackName="HoroscopeCommand" NamedCallbackParam="place:{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${_ffxivparty[1].id}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="bc651d5b-f502-4be7-b781-726b832a3a68" TriggerText="place:{&quot;Type&quot;:2,&quot;SecDisplay&quot;:${cvar:持续时间},&quot;Range1&quot;:${cvar:长度},&quot;Range2&quot;:${cvar:宽度},&quot;targetType&quot;:3,&quot;Dir&quot;:${numeric:${heading}/pi*180},&quot;Pos1&quot;:{ &quot;X&quot;:${posX},&quot;Y&quot;:${posY},&quot;Z&quot;:${posZ}},&quot;displaceTargetType&quot;:-1,&quot;alpha&quot;:${cvar:透明度},&quot;Color&quot;:&quot;${cvar:颜色1}&quot;,&quot;Color2&quot;:&quot;${cvar:颜色2}&quot;,&quot;blendOperation&quot;:${cvar:叠加选项},&quot;Outline&quot;:&quot;${cvar:边框}&quot;}" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="And" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${actionID}" ExpressionTypeL="String" ExpressionR="7585" ExpressionTypeR="String" ConditionType="RegexMatch" />
+            </Condition>
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="风暴路径" FamilyName="03:ParseHosAddCombatant" Id="c40f13f2-9d16-4c1a-95c6-6bd55cc89c39" RegularExpression="">
+            <Actions>
+              <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:3005/place" JsonPayloadExpression="{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:2,&quot;Actor&quot;:&quot;${_ffxivparty[1].name}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" NamedCallbackName="HoroscopeCommand" NamedCallbackParam="place:{&quot;SecDisplay&quot;:${time},&quot;Range1&quot;:${radius},&quot;actorType&quot;:1,&quot;Actor&quot;:&quot;${_ffxivparty[1].id}&quot;,&quot;Color&quot;:&quot;Red&quot;,&quot;Timestamp&quot;:${_timestampms}}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="bc651d5b-f502-4be7-b781-726b832a3a68" TriggerText="place:{&quot;Type&quot;:2,&quot;SecDisplay&quot;:5,&quot;Range1&quot;:4,&quot;Range2&quot;:2,&quot;actorType&quot;:1,&quot;targetType&quot;:3,&quot;displaceTargetType&quot;:-1,&quot;Actor&quot;:&quot;${objectID}&quot;,&quot;Color&quot;:&quot;Yellow&quot;,&quot;Color2&quot;:&quot;Yellow&quot;}" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${npcID}" ExpressionTypeL="String" ExpressionR="283C" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+            </Condition>
+            <Conditions />
+          </Trigger>
+        </Triggers>
+      </Folder>
+      <Folder Id="7e3ab9ef-8a1c-4784-812f-f2b3bd0165e9" Encrypted="True" UserKey="4AC81BE8" EncryptedContent="QPp3CVDBP61q/8vEAKOqLphA5/vX/eJr5oV5sZX0EljNIwuzhPd/8zdIEuZGX/mloCueDT73yAjdVDpZfbnurGTfc/u5i5kblj1dAicpchjlOVMV/1OWhzs+OeSjIgK96oZWQ5nms0fnNzGcqGhfw57exfb/ck1vpPKdQNPSPt0Z6FE7G/x/8oo5P97HuS/0wekQe/4Sx0v8Dr/1t2+o1wNfZXP6xGixbE9oLOG9jd4k25dR5h18KlWwV2FHNTsQlRDx6YbYWMzzkprOzlbXDwv75P/TNFljH3AaLYdpDhME+TeasJ8ngSBFkHd1lohVu9nn+WiBdx33oZEceDFDLUAXe5xn0f5c/ckawyv67rqfEg1D8/np+3IYdm56Nl7UDlJbg8garFmbvnU3XRHOnkz4NUUTnHpOc7go7ZDkKCd2jQUgM8mU01mBUBqpqYukPBKYKit6Xybk1tfVQtS0l94lQg8DUCWLk+VS7nIa4D46j8M1KsWxYmniXM4/Kd9BjgTLbvecJKI34QJmB9t0nPKC0nvTRLKb6mtwXywFIo3dNai/I/BmEl1OHVGNGhc36CKW5xtOvkrHDwigiRfuAx6tnv7yaUeQD/kXERYFMHYyJJR2+jEtp/GXx/6quPTmOphlE8dPFqCoQ1weenc8IsApbXSlPJVh5dhUriKosfjpV7LfRk6B6Eg6cc5/LW8dw7e5XmY0nV5hwVGHgm4uxg==" Name="Lock" Enabled="true">
+        <Folders />
+        <Triggers />
+      </Folder>
+    </Folders>
+    <Triggers />
+  </ExportedFolder>
+</TriggernometryExport>
