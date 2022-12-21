@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="f5ef55e8-9aae-4261-aacc-5785a252ef68" Name="test1" Enabled="true">
+    <Folders />
+    <Triggers>
+      <Trigger Enabled="true" Name="test2" Id="2b4018a0-0c85-481b-a89e-7772f6a33676" RegularExpression="test123">
+        <Actions>
+          <Action OrderNumber="1" SchedulingActionOp="-1" LogLevel="-1" MouseX="" MouseY="" PlaySoundDeviceId="-1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="b38da873-f97f-4aa1-a2b5-bab0270e5143" TriggerForce="regexp,conditions" PartyOrderPlayerName="" PartyOrderPartyOrder="" DevActionKey="" DevActionValue="" JvarSource="" JvarTarget="" JvarExpression="" JvarListIndex="" ActionType="Trigger" ExecutionDelayExpression="0">
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+    </Triggers>
+  </ExportedFolder>
+</TriggernometryExport>
