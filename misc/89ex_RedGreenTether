@@ -1,7 +1,7 @@
 {
   "00020001_08":{
-                "stage_0":{ "line_1":{"exit_pos":"108.839,94.697","width":"15","color":"Red"},
-                            "line_2":{"exit_pos":"105.303,91.161","width":"15","color":"Red"},
+                "stage_0":{ "line_1":{"exit_pos":"108.839,94.697","width":"15","color":"Yellow"},
+                            "line_2":{"exit_pos":"105.303,91.161","width":"15","color":"Yellow"},
                             "line_3":{"exit_pos":"108.839,94.697","width":"5","color":"Lime"},
                             "line_4":{"exit_pos":"105.303,91.161","width":"5","color":"Lime"},
                           }  
